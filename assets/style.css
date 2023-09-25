@@ -1,0 +1,29 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgba(54, 53, 53, 0.121);
+}
+
+#header nav ul {
+  display: flex;
+}
+
+#header nav ul li {
+  margin-right: 15px;
+}
+
+#header nav ul li:last-child {
+  margin-right: 0;
+}
+
+#footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  height: 40px;
+  background-color: rgba(54, 53, 53, 0.121);
+  justify-content: center;
+  align-items: center;
+}
